@@ -1,12 +1,12 @@
-**E-commerce Data Analysis – Target Case Study**
+# E-commerce Data Analysis – Target Case Study
 
 This project involves an in-depth data analysis of an e-commerce company modeled after Target. Using SQL and Python, the goal was to derive insights into customer behavior, sales trends, product performance, and revenue distribution by querying and analyzing structured data.
 
-**Project Overview**
+## Project Overview
 
 The analysis addresses a range of business questions categorized by difficulty—from foundational queries to advanced analytical operations. The dataset represents real-world e-commerce operations and includes customer profiles, order information, payment details, product metadata, and seller data.
 
-**Objectives**
+## Objectives
 
 * Perform structured exploratory analysis on an e-commerce dataset
 
@@ -16,7 +16,7 @@ The analysis addresses a range of business questions categorized by difficulty�
 
 * Extract actionable insights to support data-driven decisions
 
-**Dataset and Schema**
+## Dataset and Schema
 
 The analysis uses the following relational tables:
 
@@ -34,9 +34,9 @@ The analysis uses the following relational tables:
 
 * sellers – Information about sellers
 
-**Key Business Questions**
+## Key Business Questions
 
-Basic Analysis
+### Basic Analysis
 1. List all unique cities where customers are located
 
 2. Count the number of orders placed in 2017
@@ -47,7 +47,7 @@ Basic Analysis
 
 5. Count the number of customers per state
 
-Intermediate Analysis
+### Intermediate Analysis
 1. Calculate the number of orders per month in 2018
 
 2. Compute the average number of products per order, grouped by customer city
@@ -58,7 +58,7 @@ Intermediate Analysis
 
 5. Rank sellers by total revenue generated
 
-Advanced Analysis
+### Advanced Analysis
 1. Calculate the moving average of order values per customer over their order history
 
 2. Compute cumulative monthly sales for each year
